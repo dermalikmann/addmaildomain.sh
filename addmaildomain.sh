@@ -179,6 +179,6 @@ done
 
 log "Reloading services"
 
-systemctl reload postfix dovecot nginx
+systemctl restart postfix dovecot nginx
 
 log "Done :)"
